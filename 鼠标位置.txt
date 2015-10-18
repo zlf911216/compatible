@@ -1,0 +1,5 @@
+var oEvent=ev || event;
+
+ 	oEvent.clientX 鼠标横轴的坐标
+
+ 	oEvent.clientY 鼠标纵轴的坐标
