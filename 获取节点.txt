@@ -1,0 +1,10 @@
+直接子级：
+	获取第一个子节点兼容写法
+		var a= obj.firstElementChild || obj.firstChild;
+	获取最后一个子节点兼容写法
+		var a= obj.lastElementChild  || obj.lastChild；
+兄弟节点：
+	返回上一个兄弟节点：
+		var a=aDiv.previousElementSibling || aDiv.previousSibling;
+	返回下一个兄弟节点：
+		var a=aDiv.nextElementSibling || aDiv.nextSibling
