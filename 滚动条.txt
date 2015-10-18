@@ -1,0 +1,4 @@
+滚动条滚动高度：
+	var sH=document.documentElement.scrollTop || document.body.scrollTop;
+滚动条滚动宽度：
+	var sH=document.documentElement.scrollLeft || document.body.scrollLeft;
